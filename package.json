@@ -1,0 +1,33 @@
+{
+  "name": "outliers-interquartile-range",
+  "version": "1.0.0",
+  "description": "Suggests outliers based on IQR",
+  "author": "Laurent Godard",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.18.2"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:ci": "npm run lint",
+    "test:unit": "NODE_ENV=test mocha --check-leaks test/unit/**/*.test.js",
+    "test:coverage": "NODE_ENV=test nyc --nycrc-path=nycrc.json --cache-dir=/tmp/temp-outliers-iqr mocha test/unit/**/*.test.js --check-leaks --exit",
+    "posttest": "npm run lint",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint --fix . --ext .js"
+  },
+  "dependencies": {
+    "summary": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "7.15.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "mocha": "8.2.1",
+    "nyc": "15.1.0",
+    "should": "13.2.3"
+  }
+}
