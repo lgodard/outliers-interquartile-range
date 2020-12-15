@@ -83,7 +83,7 @@ results = {
 
 ```
 
-## Acknowledgments
+## Acknowledgements
 
 The main work (quartiles calculation) is done through the [summary](https://github.com/AndreasMadsen/summary#readme) package.
 Many thanks to the author.
