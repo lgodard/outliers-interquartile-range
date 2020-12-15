@@ -8,7 +8,7 @@ lower_bound = q25 - k * interquartile_range
 upper_bound = q75 + k * interquartile_range
 ```
 
-Any value outside these bounds is suggested as an outlier;
+Any value outside these bounds is suggested as an outlier.
 
 
 see https://en.wikipedia.org/wiki/Interquartile_range#Outliers for details
@@ -34,7 +34,7 @@ const results = outliersEngine.getOutliers(array_values, options);
 
 |Option|type|default|description
 |------ | ----------- |---|---|
-|`sorted`|`boolean`|`false`|The submited `data_array` is already sorted, avoiding costly treatments
+|`sorted`|`boolean`|`false`|The submited `data_array` is already sorted, avoiding costly operation
 |`k`     |`number` |`1.5`| Interquartile range multiplier defining the threshold 
 
 ## Results
@@ -45,7 +45,7 @@ The methos returns an object with the following entries
 |------ | -----------|
 |`outliers`| `Object` `upper` & `lower` outliers - see above
 |`stats`    |`Object` calculated values `q25`, `q75` & `iqr` (interquartile range) 
-|`parameters`    |`Object` the used parameters combining submited options and defaults
+|`parameters`    |`Object` the used parameters combining submitted options and defaults
 
 The `upper` & `lower` objects contain
 
@@ -53,7 +53,7 @@ The `upper` & `lower` objects contain
 |------ | -----------|
 |`threshold`| `number` The limit for the value being suggested as outlier
 |`values`    | `Array` The suggested outlier values
-|`indexes`    |`Array` The indexes against submited `data_array` suggested as outliers
+|`indexes`    |`Array` The indexes against submitted `data_array` suggested as outliers
 
 ```javascript
 
@@ -85,8 +85,8 @@ results = {
 
 ## Acknowledgments
 
-The main work (quartiles calculation) is done through the `summary` package.
-Many thanks to the author
+The main work (quartiles calculation) is done through the [summary](https://github.com/AndreasMadsen/summary#readme) package.
+Many thanks to the author.
 
 ## License
 
