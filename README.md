@@ -1,6 +1,6 @@
 # Outliers Interquartile Range
 
-Suggets outliers based on Interquartile Range method
+Suggests outliers based on Interquartile Range method
 
 The calculated bounds are
 ```
