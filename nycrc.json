@@ -1,0 +1,14 @@
+{
+  "all": true,
+  "exclude": [
+    ".eslintrc.js",
+    "test"
+  ],
+  "reporter": [
+    "text-summary",
+    "lcov"
+  ],
+  "cache": true,
+  "temp-dir": "/tmp/nyc_temp_outliers_iqr",
+  "report-dir": "/tmp/nyc_report_outliers_iqr"
+}
