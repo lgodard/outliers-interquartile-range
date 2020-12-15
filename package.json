@@ -1,6 +1,6 @@
 {
   "name": "outliers-interquartile-range",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Suggests outliers based on IQR",
   "author": "Laurent Godard",
   "license": "MIT",
