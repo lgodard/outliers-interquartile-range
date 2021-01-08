@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/lgodard/outliers-interquartile-range"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=12.18.2"
   },
