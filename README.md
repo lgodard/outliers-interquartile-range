@@ -16,7 +16,7 @@ see https://en.wikipedia.org/wiki/Interquartile_range#Outliers for details
 ## Installation
 
 ```
-npm install outliers-interquartile-range
+npm install @lgodard/outliers-interquartile-range
 ```
 
 ## Example
@@ -39,7 +39,7 @@ const results = outliersEngine.getOutliers(array_values, options);
 
 ## Results
 
-The methos returns an object with the following entries
+The `getOutliers` method returns an object with the following entries
 
 |Entry|description
 |------ | -----------|
