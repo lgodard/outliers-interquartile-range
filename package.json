@@ -12,7 +12,7 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=12.18.2"
+    "node": ">=20.18.0"
   },
   "main": "src/index.js",
   "scripts": {
