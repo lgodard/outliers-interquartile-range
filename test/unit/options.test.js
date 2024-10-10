@@ -1,6 +1,4 @@
 
-'use strict';
-
 const outliersEngine = require('../../src/index');
 const sample = require('../data/sample');
 

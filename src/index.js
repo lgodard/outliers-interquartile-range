@@ -1,6 +1,4 @@
 
-'use strict';
-
 const summary = require('summary');
 
 const DEFAULT_OPTIONS = {

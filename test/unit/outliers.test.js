@@ -1,6 +1,4 @@
 
-'use strict';
-
 require('should');
 
 const outliersEngine = require('../../src/index');
